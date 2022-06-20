@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/alexbellairs/nodeCLI/issues"
   },
-  "homepage": "https://github.com/alexbellairs/nodeCLI#readme"
+  "homepage": "https://github.com/alexbellairs/nodeCLI#readme",
+  "dependencies": {
+    "yargs": "^17.5.1"
+  }
 }

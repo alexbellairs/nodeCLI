@@ -11,4 +11,18 @@ class Movie {
   }
 }
 
+const musicArr = [];
+
+class Music {
+  constructor(title, artist) {
+    this.title = title;
+    this.artist = artist;
+  }
+  add() {
+    musicArr.push(this);
+    console.log(musicArr);
+  }
+}
+
 module.exports = Movie;
+module.exports = Music;
